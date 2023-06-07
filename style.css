@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* width:100%; */
+}
+@media(min-width: 50px)and (max-width:500px){
+    #navbar,#img{
+        width:100%;
+    }
+}
+#img{
+    background-image: url("newbodyimg.jpg");
+    background-repeat: no-repeat;
+    /* width:100%; */
+    height:530px;
+}
+
+#navbar{
+    padding: 3px;
+    height: 70px;
+    /* width:100%; */
+    opacity: 0.9;
+    background-color: #413a3a;
+    display:flex;
+    justify-content: space-around;
+    position: sticky;
+}
+.item1{
+    margin: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.item1 a{
+    text-decoration:none ;
+    color:white;
+}
+.loginBox{display: flex;
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    left:550px;
+    top: 100px;
+    margin-top: 66px;
+    /*background-color: white;
+    border: 2px solid black;*/
+}
+    
+.name h1{
+    font-family:'Mochiy Pop One', sans-serif;
+    font-size:5rem;
+    color:#c7c40b;
+    position: absolute;
+    left: 300px ;
+}
+
+    
+.name h3{
+    font-family: 'Lobster', cursive;
+    font-size:3rem;
+    color:#c7c40b;
+    position: absolute;
+    left: 320px ;
+    top: 100px;
+} 
+
+.content{
+position: absolute;
+top: 200px;
+left: 200px;
+font-size: larger;
+font-family:'Mochiy Pop One', sans-serif;
+
+}
+.content h2{
+top:100px;
+}
+
+
+#btn{
+    border: 2px solid #c7c40b;
+    border-radius: 10px;
+    padding: 20px;
+    width:600px;
+    position: absolute;
+    top: 65px;
+    height: 13px;
+}
+.Services{
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    margin:3px;
+
+}
+.sec1{
+    text-align: center;
+    font-size: 3rem;
+    margin:5px ;
+}
+.sec2{
+    display: flex;
+    flex-direction:row;
+    position: absolute;
+    top: 600px;
+    height: 350px;
+}
+.sec{
+    border: 3px solid black;
+    border-radius: 6px;
+    width: 450px;
+    height:300px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.sec img{
+    height:215px;
+    width:300px;
+
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+#item{
+    text-align: center; 
+    font-size: 3rem;
+}
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*border: 2px solid black;*/
+    border-radius: 8px;
+}
+#images img{
+    height:215px;
+    width:300px;
+}
+.sponsers{
+    display:flex;
+    flex-direction: column;
+    height: 290px;
+}
+#spon{
+    text-align: center; 
+    font-size: 3rem;
+}
+#mncs{
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
+    margin: 15px;
+}
+#mncs img{
+    height:215px;
+    width:300px;
+}
